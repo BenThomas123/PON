@@ -1,6 +1,6 @@
 #include "message_queue.h"
-#include <stdlib.h>
-#include <string.h>
+#include "stdlib.h"
+#include "string.h"
 
 /* Initialize a message queue */
 MessageQueue *message_queue_init(int capacity) {
