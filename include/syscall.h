@@ -1,8 +1,6 @@
 #ifndef SYSCALL_H
 #define SYSCALL_H
 
-#include <stdint.h>
-
 /* System Call Numbers */
 #define SYSCALL_PRINT_STRING 0
 #define SYSCALL_TOGGLE_LED 1

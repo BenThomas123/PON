@@ -1,8 +1,6 @@
 #ifndef TIMER_H
 #define TIMER_H
 
-#include <stdint.h>
-
 /* Timer Initialization */
 void timer_init();
 

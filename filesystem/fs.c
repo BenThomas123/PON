@@ -1,9 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-#include "esp_err.h"
-#include "esp_vfs.h"
-#include "esp_vfs_fat.h"
-#include "esp_spiffs.h"
 #include "fs.h"
 
 /* Define the base path for the file system */

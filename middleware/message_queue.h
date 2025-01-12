@@ -1,14 +1,14 @@
 #ifndef MESSAGE_QUEUE_H
 #define MESSAGE_QUEUE_H
 
-#include <stdint.h>
-
-typedef struct {
-    uint32_t id;
-    char data[256]; // Message payload
+typedef struct
+{
+    int id;
+    unsigned char data[256]; // Message payload
 } Message;
 
-typedef struct {
+typedef struct
+{
     Message *messages;
     int capacity;
     int size;

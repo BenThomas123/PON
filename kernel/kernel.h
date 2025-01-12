@@ -1,8 +1,12 @@
 #ifndef KERNEL_H
 #define KERNEL_H
 
-#include <stdint.h>
 #include "uart.h"
+#include "gdt.h"
+#include "idt.h"
+#include "scheduler.h"
+#include "timer.h"
+#include "boot.h"
 
 /* Kernel Initialization */
 void kernel_init();

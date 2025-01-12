@@ -1,9 +1,4 @@
 #include "kernel.h"
-#include "gdt.h"
-#include "idt.h"
-#include "scheduler.h"
-#include "timer.h"
-#include "boot.h"
 
 /* ========================= */
 /* === Kernel Functions === */

@@ -1,5 +1,4 @@
 #include "memory.h"
-#include "esp_system.h"
 
 // Initialize the memory system
 void memory_init() {

@@ -1,3 +1,4 @@
+#include "uart.h"
 #ifndef INTERRUPT_H
 #define INTERRUPT_H
 

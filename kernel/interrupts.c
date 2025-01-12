@@ -1,5 +1,4 @@
 #include "interrupts.h"
-#include "uart.h"
 
 /* Interrupt Vector Table (IVT) */
 #define INTERRUPT_VECTOR_BASE 0x40000000
